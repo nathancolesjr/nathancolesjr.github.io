@@ -1,0 +1,53 @@
+:root {
+  /* --main: #18122B;
+  --secondary: #443C68;
+  --tet: #635985; */
+  --main:black;
+  --secondary:#111010;
+  --tet:#18122B;
+
+}
+
+.appMain {
+  background: var(--secondary );
+}
+
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:20px;
+  margin-bottom:40px;
+  padding:20px;
+}
+
+.videoBox {
+  display:flex;
+  flex-direction: column;
+  margin-bottom:20px;
+}
+
+.videoBoxContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  text-align: center;
+  margin-bottom:40px;
+}
+
+.videoBoxContainer iframe {
+  margin:0;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoBox span {
+  color:white;
+  font-size:1vw;
+  font-weight:600;
+  text-align: center;
+  margin-top:10px;
+}

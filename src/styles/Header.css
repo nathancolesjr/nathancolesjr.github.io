@@ -1,0 +1,38 @@
+.navBarMaster {
+    display:sticky;
+}
+
+.navBar {
+    background-color: var(--main);
+    padding:20px;
+    margin-bottom:40px;
+    box-shadow: 0px 0px 10px 2px black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+
+.navLogo {
+    margin-bottom:10px;
+}
+
+.navEle {
+    display:flex;
+    gap:10px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.navEle a {
+    display:flex;
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+    font-size:25px;
+}
